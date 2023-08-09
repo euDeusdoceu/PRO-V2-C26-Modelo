@@ -49,21 +49,12 @@ function draw() {
     if (playerArrows[i] !== undefined) {
       playerArrows[i].display();
 
-      /* var board1Collision = Matter.SAT.collides(
+       var board1Collision = Matter.SAT.collides(
         board1.body,
         playerArrows[i].body
-      ); */
+      ); 
 
-      /* var board1Collision = collides(
-        board1.body,
-        playerArrows[i].body
-      ); */
-
-      /* var board1Collision = SAT.collides(
-        board1.body,
-        playerArrows[i].body
-      ); */
-
+  
       /* var board1Collision = Matter(
         board1.body,
         playerArrows[i].body
